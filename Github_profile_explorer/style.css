@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    background-image: url('images/bg2.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-container {
+    text-align: center; 
+    border-radius: 18px; 
+}
+ 
+
+#username-input {
+    padding: 10px;
+    width: 70%;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-card {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+
+.profile-card img {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.profile-card p {
+    margin-top: 10px;
+}
+
+.profile-card{
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 18px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 10px rgb(230, 128, 246);
+    font-family: cursive;
+}
+#prof-img{
+    height: 90px;
+    width: auto;
+    border-radius: 50%;
+    margin: 10px 0;
+    margin-top: 20px;
+    box-shadow: 0 3px 10px rgb(72, 71, 71);
+}
+.followers{
+    border-right: 1px solid grey;
+}
+
+.follow{
+    width: 100%;
+    display: flex;
+    height: 60px;
+    border-top: 1px solid grey;
+    font-size: 22px;
+}
+
+.follow div{
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
